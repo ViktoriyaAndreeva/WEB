@@ -1,0 +1,77 @@
+* {
+    font-family:URW Chancery L, cursive;
+    font-size: 19px;
+}
+
+body, html {
+    width: 100%;
+    color: rgb(173, 125, 54);
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family:URW Chancery L, cursive;   
+}
+
+.container{
+    margin: 20px 20px 20px 20px;
+    background-color: bisque;
+    box-shadow:0 2px 0 10px rgb(199, 155, 98);
+    font-family:URW Chancery L, cursive;  
+    overflow: hidden;  
+    border-radius: 10px   
+}
+
+h1 {
+    font-family: URW Chancery L, cursive; 
+    font-weight: 900;
+    margin: 1em;
+    padding: 2em;
+    text-align: justify
+} 
+
+
+p {
+    font-family: URW Chancery L, cursive; 
+    font-style: normal;
+    background-color: #FFFFF0;
+    margin: 1em;
+    padding: 3em;
+    text-align: justify;
+    text-indent: 20px;   
+    border-radius: 10px
+}
+
+.leftimg {
+    float:left; 
+    margin: 7px 7px 7px 7px; 
+    
+}
+
+.rightimg  {
+    float: right;  
+    margin: 7px 7px 7px 7px; 
+    
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 75px;
+    }
+
+.column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+    border-color: #CD853F;
+    border-width: 6px;
+    border-style: double;
+    border-radius: 10px;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+a {
+    font-family: URW Chancery L, cursive; 
+    text-decoration-color: black;
+}
